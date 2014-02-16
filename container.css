@@ -80,7 +80,7 @@ float:left;
 }
 
 #content-holder {
-height:800px;
+height:auto;
 width: 1024px;
 background: #aabbcc;
 }
