@@ -74,16 +74,43 @@ is set at first. The ok button is supposed to make users think it's an on/off ki
 
 <table cellspacing="0" cellpadding="10">
 					
-					<tr><td><h1><b>MIT assignment - Visibility</b></h1></td><td rowspan="2"><IMG src="lock.jpg" width="200" height="250"/></td></tr>
-					<tr><td> <b>What am I supposed to do?</b><br><br><i>The point of this activity is to start thinking about what it means for an interface to be usable. At right is a familiar user interface design:
-List some of the aspects of this design that have good usability, and some that have poor usability. Think about the aspects of usability we've discussed (learnability, memorability, efficiency, errors, satisfaction), and write down which aspect(s) of usability are involved in each good or bad point you cite.
+					<tr><td><h1><b>MIT assignment - Visibility</b></h1></td><td rowspan="2"><IMG src="dam.png" width="200" height="600"/></td></tr>
+					<tr><td> <b>What am I supposed to do?</b><br><br><i>The purpose of this activity is to explore aspects of visibility in design. Suppose you're designing an interface for two players to play checkers (also called draughts) across the Internet. The picture on the right shows the scenario: each player has an interface on their screen, and the state of the game is stored on a network server that both communicate with.
+Guided by the categories below, make a list of what needs to be made visible, and then brainstorm (and sketch) how the interface might make it visible.<br>
+•	Actions: what can the user do?<br>
+•	State: what is the current state of the system?<br>
+•	Feedback: what was the effect of the user's action?<br>
+
 </i></td></tr>
-<tr><td colspan="2"><b>Taking a look at the points of usability I was asked to look at:</b><br><br>
-•	Learnability: Because you will be using the same way to lock (setting a certain amount of numbers to lock it, and using the same numbers to unlock it) I think this is easy enough to learn, and generally won't give any user problems. <br>
-•	Memorability: Device itself is not hard to remember how to use. The numbers you set can be meaningful ones, making it easy for you to remember.<br>
-•	Efficiency: Rotating features require an unnatural movement for the wrists and arms. Takes time to unlock, there is no fast way, trying to unlock at a speedy rate will increase likeliness of making errors.<br>
-•	Errors: Device is prone to errors. If you rotate the lock further than intended, you'll have to start all over again.Possibly even worse: you will mess up the code you are setting, changing it to something you might not remember.<br>
-•	Satisfaction:  While easy to use and remember, this device is quite prone to errors and might not be very satisfying to the user.<br>
+<tr><td colspan="2"><b>What I should be visible and how do I achieve this?</b><br><br>
+<b>What needs to be made visible?</b><br><br>
+Actions:<br>
+•	Which moves are available to the player?<br>
+•	Is there any possibility of defeating any of the opponents pawns?<br><br>
+
+State: <br>
+•	-Whose turn is it currently?<br>
+•	-How many defeated pawns does each player have?<br>
+•	-What is the remaining amount of pawns in the game for each player?<br><br>
+
+Feedback:<br>
+•	-I didn't look at the board for a moment, what did my opponent do? Did he just move, or was one of my pawns defeated while I wasn't looking?<br>
+•	-I'm not sure if my move actually worked, how do I know?<br><br>
+
+
+<b>How do I  make it visible?</b><br><br>
+Actions:<br>
+•	I can highlight the different moves available with colour X.<br>
+•	I can highlight the option of beating an opponents pawn with colour Y.<br><br>
+
+State:<br>
+•	The current player's turn is indicated by a subtle arrow at the player's name<br>
+•	On each player's right side next to the board, the amount of beaten pawns with the appropriate colour is shown.<br>
+•	On the left side of the board for each player the amount of pawns they have left is shown.<br><br>
+
+Feedback:<br>
+•	To solve both the issues given in the upper section, I suggest displaying a short message on the screen above the board to indicate what happened during the last move, regardless of who made the move.<br><br>
+
 </td></tr>					
 
 					</table>
