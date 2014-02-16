@@ -39,8 +39,8 @@ background: #7A991A;
 }
 li#menu:hover ul {
 display: block;
-position: absolute;
-margin-left: -70px;
+position: relative;
+
 
 }
 li#menu:hover li {
