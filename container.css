@@ -23,15 +23,15 @@ display: none;
 }
 div#menu li a {
 display: block;
-width:146.6px;
+width:100px;
 font-weight:bold;
 font-size: 1.5em;
 color:#BDBDBD;
-background-color:#0B0B61;
+background-color:#272927;
 text-align:center;
 padding:12px;
 text-decoration:none;
-text-transform:uppercase;
+text-transform:lowercase;
 
 }
 div#menu li a:hover {
