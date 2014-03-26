@@ -1,7 +1,9 @@
 #container {
+top: 0px;
 width:1024px;
 margin:auto;
 background: #ffaabb;
+
 }
 
 #menu {
